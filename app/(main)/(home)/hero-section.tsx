@@ -5,27 +5,27 @@ const HeroSection = () => {
   return (
     <div>
       <div className="dark:hidden relative h-screen overflow-y-hidden">
-        <div className="absolute -top-14 left-16 w-[500px] aspect-square bg-gradient-to-bl from-[#68cefe] to-[#34d4af] blur-2xl opacity-35 -z-10"></div>
-        <div className="absolute -top-14 left-[35%] w-[500px] h-full bg-gradient-to-br from-[#3badffdf] to-[#3badff7e] blur-2xl opacity-35 -z-10"></div>
-        <div className="absolute -top-14 right-16 w-[500px] h-full bg-gradient-to-bl from-[#b1784f] to-[#ffb9a9] blur-2xl  opacity-35 -z-10"></div>
-        <div className="absolute bottom-16 left-[40%] w-[400px] h-full bg-gradient-to-bl from-[#F5E1BF] to-[#ffb9a9] blur-2xl  opacity-35 -z-10"></div>
-       <div className="w-11/12 mx-auto max-w-[1080px] z-50">
-        
-        <div className="flex flex-col justify-center mt-36 gap-7 max-w-[500px]">
-          <p className="w-full lg:text-7xl md:text-5xl text-3xl">
-            {" "}
-            We are at the forefront of AI
-          </p>
-          <div className="text-xl">
-            <p>
-              From Conserving Wildlife to Automatically Generating Caricatures  <span className="font-semibold">– We Do It All</span>
+        <div className="absolute -top-14 left-16 w-[650px] h-full bg-gradient-to-b from-[#68cefe] to-[#34d4af] blur-2xl opacity-35 z-0"></div>
+        <div className="absolute -top-14 left-[35%] w-[500px]  h-full bg-gradient-to-bl from-[#b6e1ffdf] to-[#ffd92f7e] blur-2xl opacity-35 z-0"></div>
+        <div className="absolute bottom-16 left-[50%] w-[400px] h-full bg-gradient-to-b from-[#b1784f] to-[#ffb9a9]  blur-2xl  opacity-25 z-0"></div>
+        <div className="absolute -top-14 right-16 w-[500px] h-full bg-gradient-to-bl from-[#F5E1BF] to-[#ffb9a9] blur-2xl  opacity-35 z-0"></div>
+        <div className="w-11/12 mx-auto max-w-[1080px]">
+          <div className="flex flex-col justify-center absolute mt-36 gap-7 max-w-[500px]">
+            <p className="w-full lg:text-7xl md:text-5xl text-black text-3xl ">
+              {" "}
+              We are at the forefront of AI
             </p>
-           
+            <div className="text-xl">
+              <p>
+                From Conserving Wildlife to Automatically Generating Caricatures{" "}
+                <span className="font-semibold">– We Do It All</span>
+              </p>
+            </div>
+            <Button className="py-7 w-fit hover:bg-white border hover:border-black hover:text-black rounded-xl px-12 text-lg">
+              Learn More
+            </Button>
           </div>
-          <Button className="py-7 w-fit hover:bg-white border hover:border-black hover:text-black rounded-xl px-12 text-lg">Learn More</Button>
         </div>
-       </div>
-
       </div>
 
       <div className="relative hidden dark:block">
