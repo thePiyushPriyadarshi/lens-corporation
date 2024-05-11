@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { BsInstagram } from "react-icons/bs";
 import { FaDiscord, FaFacebook } from "react-icons/fa";
@@ -9,7 +10,27 @@ const Footer = () => {
     <footer>
       <div className="flex lg:flex-row flex-col justify-between my-10 mb-16 w-11/12 max-w-[1280px] mx-auto">
         <div>
-            <img src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=96&q=75" alt="logo" />
+        <div className="dark:hidden block">
+          <Image
+            width={80}
+            height={80}
+            src={
+              "https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=96&q=75"
+            }
+            alt="logo"
+          />
+        </div>
+        <div className="dark:block hidden">
+          <Image
+            width={80}
+            height={80}
+            src={
+              "https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FnewLogo.9985891c.png&w=96&q=75"
+            }
+            alt="logo"
+          />
+        </div>
+            {/* <img src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=96&q=75" alt="logo" /> */}
             <p>{"Tomorrow's"} Vision, Today!</p>
             <div className="flex gap-5 text-3xl mt-16">
                 <a href="">
