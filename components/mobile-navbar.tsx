@@ -35,6 +35,7 @@ const MobileNavbar = () => {
         {navbarOptions.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
+             onClick={()=>setIsMenuOpen(false)}
               className={`${
                 route(item.path)
                   ? "bg-gradient-to-r text-transparent from-[#0796FF] to-[#91F6FF]"
