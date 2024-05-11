@@ -4,19 +4,19 @@ const ServiceCard = ({ data }: any) => {
   return (
     <>
       <div className="relative">
-        <div className="absolute w-[300px] -top-12 -z-10 -left-12 aspect-square dark:bg-transparent bg-[#34d4afa9] blur-[150px] "></div>
+        <div className="absolute w-[300px] -top-12 z-0 -left-12 aspect-square dark:bg-transparent bg-[#34d4afa9] blur-[150px] "></div>
         <Card1 cardData={data[0]} />
       </div>
       <div className="relative">
-        <div className="absolute w-[300px] -top-12 -z-10 -right-12 aspect-square dark:bg-transparent bg-[#69bfe7a7] blur-[150px] "></div>
+        <div className="absolute w-[300px] -top-12 z-0 -right-12 aspect-square dark:bg-transparent bg-[#69bfe7a7] blur-[150px] "></div>
         <Card2 cardData={data[1]} />
       </div>
       <div className="relative">
-        <div className="absolute w-[300px] -bottom-12 -z-10 -left-12 aspect-square dark:bg-transparent bg-[#ff5f5f79] blur-[150px] "></div>
+        <div className="absolute w-[300px] -bottom-12 z-0 -left-12 aspect-square dark:bg-transparent bg-[#ff5f5f79] blur-[150px] "></div>
         <Card3 cardData={data[2]} />
       </div>
       <div className="relative">
-        <div className="absolute w-[300px] -bottom-12 -z-10 -right-12 aspect-square dark:bg-transparent bg-[#ff9f3177] blur-[150px] "></div>
+        <div className="absolute w-[300px] -bottom-12 z-0 -right-12 aspect-square dark:bg-transparent bg-[#ff9f3177] blur-[150px] "></div>
         <Card4 cardData={data[3]} />
       </div> 
     </>
@@ -28,7 +28,7 @@ export default ServiceCard;
 const Card1 = ({ cardData }: any) => {
   return (
     <div
-      className={`relative w-full z-10 border-1 border-transparent rounded-xl dark:bg-[#1b1c1e] bg-white dark:hover:bg-black hover:bg-transparent hover:border-[#34D4AE] group border p-10`}
+      className={`relative w-full z-10 border-transparent rounded-xl dark:bg-[#1b1c1e] bg-white dark:hover:bg-black hover:bg-transparent hover:border-[#34D4AE] group border p-10`}
     >
       {/* <div className="absolute top-0 left-0 w-full h-full dark:hidden group-hover:bg-gradient-to-br from-[#34d4afc6] to-[#ecfffb] blur-2xl opacity-35 z-0"></div> */}
       <div className="flex items-center">
@@ -53,7 +53,7 @@ const Card1 = ({ cardData }: any) => {
 const Card2 = ({ cardData }: any) => {
   return (
     <div
-      className={`relative z-10 border-1 border-transparent rounded-xl dark:bg-[#1b1c1e] bg-white dark:hover:bg-black hover:bg-transparent hover:border-[#69C0E7] group border p-10`}
+      className={`relative z-10 border-transparent rounded-xl dark:bg-[#1b1c1e] bg-white dark:hover:bg-black hover:bg-transparent hover:border-[#69C0E7] group border p-10`}
     >
       {/* <div className="absolute top-0 right-0 w-full h-full dark:hidden group-hover:bg-gradient-to-bl from-[#69C0E7] to-[#ecfffb] blur-2xl opacity-35 z-0"></div> */}
 
@@ -79,7 +79,7 @@ const Card2 = ({ cardData }: any) => {
 const Card3 = ({ cardData }: any) => {
   return (
     <div
-      className={`relative z-10 border-1 border-transparent rounded-xl dark:bg-[#1b1c1e] dark:hover:bg-black bg-white hover:bg-transparent hover:border-[#FF605F] group border p-10`}
+      className={`relative z-10 border-transparent rounded-xl dark:bg-[#1b1c1e] dark:hover:bg-black bg-white hover:bg-transparent hover:border-[#FF605F] group border p-10`}
     >
       {/* <div className="absolute bottom-0 right-0 w-full h-full dark:hidden group-hover:bg-gradient-to-tr from-[#FF605F] to-[#ecfffb] blur-2xl opacity-0 z-0"></div> */}
 
@@ -105,7 +105,7 @@ const Card3 = ({ cardData }: any) => {
 const Card4 = ({ cardData }: any) => {
   return (
     <div
-      className={`relative z-10 border-1 border-transparent rounded-xl dark:bg-[#1b1c1e] dark:hover:bg-black  bg-white hover:bg-transparent hover:border-[#FF9F31] group border p-10`}
+      className={`relative z-10 border-transparent rounded-xl dark:bg-[#1b1c1e] dark:hover:bg-black  bg-white hover:bg-transparent hover:border-[#FF9F31] group border p-10`}
     >
       {/* <div className="absolute bottom-0 left-0 w-full h-full dark:hidden group-hover:bg-gradient-to-tl from-[#FF9F31] to-[#ecfffb] blur-2xl opacity-20 z-0"></div> */}
 

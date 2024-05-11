@@ -10,7 +10,7 @@ const ServiceSection = () => {
           <h2 className="text-2xl uppercase my-1">Services</h2>
           <div className="bg-gradient-to-r from-[#0796FF] to-[#91F6FF] rounded-lg mx-auto w-8/12 h-[4px]"></div>
         </div>
-        <div>
+        <div className="mb-20 max-w-[1080px]">
           <p className="lg:text-7xl text-center">
             We provide Artificial Intelligence Services
           </p>

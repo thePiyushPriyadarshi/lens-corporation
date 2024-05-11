@@ -9,9 +9,9 @@ const HeroSection = () => {
         <div className="absolute -top-14 left-[35%] w-[500px]  h-full bg-gradient-to-bl from-[#b6e1ffdf] to-[#ffd92f7e] blur-2xl opacity-35 z-0"></div>
         <div className="absolute bottom-16 left-[50%] w-[400px] h-full bg-gradient-to-b from-[#b1784f] to-[#ffb9a9]  blur-2xl  opacity-25 z-0"></div>
         <div className="absolute -top-14 right-16 w-[500px] h-full bg-gradient-to-bl from-[#F5E1BF] to-[#ffb9a9] blur-2xl  opacity-35 z-0"></div>
-        <div className="w-11/12 mx-auto max-w-[1080px]">
+        <div className="w-11/12 mx-auto flex md:items-start items-center h-screen max-w-[1080px]">
           <div className="flex flex-col md:items-start items-center justify-center absolute mt-36 gap-7 max-w-[500px]">
-            <p className="w-full text-center lg:text-7xl text-black text-5xl ">
+            <p className="w-full text-center md:text-left lg:text-7xl text-black text-5xl ">
               {" "}
               We are at the forefront of AI
             </p>

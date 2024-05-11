@@ -47,7 +47,7 @@ const MobileNavbar = () => {
             </Link>
           </NavbarMenuItem>
         ))}
-        <NavbarMenuItem>
+        <NavbarMenuItem onClick={()=>setIsMenuOpen(false)}>
           <ModeToggle />
         </NavbarMenuItem>
       </NavbarMenu>
