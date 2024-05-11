@@ -7,7 +7,7 @@ const OurBlogs = () => {
   return (
     <div id="blogs" className="flex flex-col items-center justify-center">
       <div className="w-fit mt-20">
-        <h2 className="lg:text-xl font-semibold uppercase my-1">Our Blogs</h2>
+        <h2 className="text-2xl font-semibold uppercase my-1">Our Blogs</h2>
         <div className="bg-gradient-to-r from-[#0796FF] to-[#91F6FF] rounded-lg mx-auto w-8/12 h-[4px]"></div>
       </div>
       <div className="lg:text-7xl max-w-[1080px] text-center my-10 md:text-5xl text-3xl">

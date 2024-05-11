@@ -1,15 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
-import React from "react";
-import ChooseCard from "./_components/choose-card";
+import React from "react"; 
 
 const MeetTruAiSection = () => {
   return (
     <div className="mt-28 z-10">
       <div className="clip w-full min-h-[600px] bg-[#272E5C] py-10 dark:bg-[#242424]">
-        <div className="flex justify-between items-center text-white md:pt-48 mx-auto">
-          <div className="relative ml-24 lg:visible invisible w-[350px] aspect-square">
+        <div className="flex justify-between items-center text-white pt-48 mx-auto">
+          <div className="relative lg:ml-24 lg:block hidden w-[350px] aspect-square">
             <Image
               className=""
               fill
@@ -17,8 +16,8 @@ const MeetTruAiSection = () => {
               alt="img"
             />
           </div>
-          <div className="flex flex-col items-center justify-center gap-y-5">
-            <div className="text-7xl  font-semibold flex gap-3">
+          <div className="flex flex-col w-full items-center justify-center gap-y-5">
+            <div className="lg:text-7xl text-5xl font-semibold flex gap-3">
               Meet{" "}
               <div className="sliding-animation">
                 Tru-AI
@@ -45,7 +44,8 @@ const MeetTruAiSection = () => {
               <ArrowRight className="hidden group-hover/button:block transition-all duration-200 w-4 h-4 ml-2" />{" "}
             </Button>
           </div>
-          <div className="w-[400px] lg:visible invisible">
+
+          <div className="w-[400px] lg:block hidden">
             <video autoPlay muted loop className="rounded-l-[100px]">
               <source
                 src="https://res.cloudinary.com/detwrhe0k/video/upload/v1691730954/lenscorp-website/product-intro_1_dmajx1_qaemeu.mp4"

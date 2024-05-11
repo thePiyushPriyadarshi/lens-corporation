@@ -27,7 +27,11 @@ const MobileNavbar = () => {
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
         />
       </NavbarContent>
-      <NavbarMenu>
+      <NavbarMenu className="py-20 space-y-4">
+      <NavbarMenuItem>
+      <a href="https://makemyweb.ai/en" target="_blank">MakeMyWeb.</a>
+
+        </NavbarMenuItem>
         {navbarOptions.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link

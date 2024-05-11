@@ -5,9 +5,9 @@ import React from "react";
 
 const AboutUsSection = () => {
   return (
-    <div className="flex flex-col w-11/12 mx-auto mt-8 items-center justify-center">
+    <div className="flex flex-col w-11/12 mx-auto mt-44 items-center justify-center">
       <div className="w-fit my-10">
-        <h2 className="lg:text-7xl md:text-5xl text-3xl my-4">About Us</h2>
+        <h2 className="lg:text-7xl text-5xl my-4">About Us</h2>
         <div className="bg-gradient-to-r from-[#0796FF] to-[#91F6FF] rounded-lg mx-auto w-8/12 h-[9px]"></div>
       </div>
 

@@ -15,8 +15,8 @@ const list = [
 ]
 const WhyChooseSection = () => {
   return (
-    <div className="flex flex-col my-20 items-center justify-center">
-      <div className="flex gap-2 font-semibold text-xl uppercase">
+    <div className="flex flex-col my-24 items-center justify-center">
+      <div className="flex gap-2 font-semibold text-2xl uppercase">
         {" "}
         Why
         <div className="w-fit">

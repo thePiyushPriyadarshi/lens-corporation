@@ -11,7 +11,7 @@ const Faq = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="w-fit mt-20">
-        <h2 className="lg:text-xl font-semibold uppercase my-1">
+        <h2 className="text-2xl font-semibold uppercase my-1">
           Get to Know us
         </h2>
         <div className="bg-gradient-to-r from-[#0796FF] to-[#91F6FF] rounded-lg mx-auto w-8/12 h-[4px]"></div>

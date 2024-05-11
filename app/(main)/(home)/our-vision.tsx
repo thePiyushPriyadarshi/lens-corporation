@@ -5,7 +5,7 @@ const OurVisionSection = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="w-fit my-10">
-        <h2 className="lg:text-xl font-semibold uppercase my-1">Our Visions</h2>
+        <h2 className="text-2xl font-semibold uppercase my-1">Our Visions</h2>
         <div className="bg-gradient-to-r from-[#0796FF] to-[#91F6FF] rounded-lg mx-auto w-8/12 h-[4px]"></div>
       </div>
       <div className="lg:text-7xl max-w-[1080px] text-center mt-16 mb-10 md:text-5xl text-3xl">

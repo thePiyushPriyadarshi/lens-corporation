@@ -6,8 +6,8 @@ const ServiceSection = () => {
   return (
     <div id="services" className="overflow-hidden">
       <div className="flex flex-col w-11/12 mx-auto items-center justify-center pb-10">
-        <div className="w-fit my-10">
-          <h2 className="lg:text-xl uppercase my-1">Services</h2>
+        <div className="w-fit my-20">
+          <h2 className="text-2xl uppercase my-1">Services</h2>
           <div className="bg-gradient-to-r from-[#0796FF] to-[#91F6FF] rounded-lg mx-auto w-8/12 h-[4px]"></div>
         </div>
         <div>

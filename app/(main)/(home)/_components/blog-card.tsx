@@ -3,8 +3,8 @@ import React from "react";
 
 const BlogCard = () => {
   return (
-    <div className="w-11/12 space-y-6 mx-auto max-w-[1080px]">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 ">
+    <div className="w-11/12 space-y-7 mx-auto max-w-[1080px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 ">
         <GenerativeCard />
         <EvolutionCard />
       </div>
